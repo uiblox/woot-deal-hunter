@@ -1,0 +1,8 @@
+server:
+  port: 8080
+woot:
+  base-url: https://developer.woot.com
+  # Set via env var WOOT_API_KEY (never commit a real key)
+  api-key: ${WOOT_API_KEY:}
+  cache-seconds: 60
+  allowed-origin: http://localhost:5173
